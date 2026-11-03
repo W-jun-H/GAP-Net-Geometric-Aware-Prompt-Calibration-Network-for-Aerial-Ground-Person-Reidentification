@@ -1,0 +1,13 @@
+_BASE_: "../LAGPeR/secap.yml"
+MODEL:
+  USE_SECAP: True
+  BACKBONE:
+    INNER_SUB: False # No VDT
+    USE_PRM: True # This is G-PCM
+    USE_GEO_PRIOR: False # No GPE
+  LOSSES:
+    CE:
+      VIEW_ID: False
+      VIEW_OREG: False
+      VIEW_LAMBDA: 0.0
+OUTPUT_DIR: logs/ablation_LAGPeR/4_lfrm_gpcm
