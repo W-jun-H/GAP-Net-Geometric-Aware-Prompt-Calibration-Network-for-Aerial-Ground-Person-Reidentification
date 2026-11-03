@@ -1,0 +1,11 @@
+
+_BASE_: "../LAGPeR/VDT.yml"
+MODEL:
+  BACKBONE:
+    INNER_SUB: False
+  LOSSES:
+    CE:
+      VIEW_ID: False
+      VIEW_OREG: False
+      VIEW_LAMBDA: 0.0
+OUTPUT_DIR: logs/ablation_LAGPeR/1_baseline_vit

@@ -1,0 +1,8 @@
+_BASE_: "../G2APS_ReID/secap.yml"
+MODEL:
+  USE_LFRM: False
+  BACKBONE:
+    USE_VDT: False
+    USE_G_PCM: False
+    USE_GPE: False
+OUTPUT_DIR: "logs/ablation_G2APS_ReID/1_baseline_vit"
