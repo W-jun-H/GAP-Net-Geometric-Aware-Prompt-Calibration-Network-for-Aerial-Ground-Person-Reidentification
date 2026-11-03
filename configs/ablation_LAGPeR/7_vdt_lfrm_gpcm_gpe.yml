@@ -1,6 +1,0 @@
-
-_BASE_: "../LAGPeR/secap.yml"
-# Full model
-OUTPUT_DIR: logs/ablation_LAGPeR/7_vdt_lfrm_gpcm_gpe
-MODEL:
-  WEIGHTS: "logs/ablation_LAGPReID/7_vdt_lfrm_gpcm_gpe/model_best.pth"

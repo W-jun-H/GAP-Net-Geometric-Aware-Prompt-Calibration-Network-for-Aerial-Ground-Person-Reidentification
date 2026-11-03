@@ -1,8 +1,0 @@
-_BASE_: "../G2APS_ReID/secap.yml"
-MODEL:
-  USE_LFRM: True
-  BACKBONE:
-    USE_VDT: True
-    USE_G_PCM: True
-    USE_GPE: True
-OUTPUT_DIR: "logs/ablation_G2APS_ReID/7_vdt_lfrm_gpcm_gpe"

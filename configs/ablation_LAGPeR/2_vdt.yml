@@ -1,4 +1,0 @@
-
-_BASE_: "../LAGPeR/VDT.yml"
-# VDT (View-Disentangled Transformer)
-OUTPUT_DIR: logs/ablation_LAGPeR/2_vdt
